@@ -36,7 +36,7 @@
       </div>
       <div class="col-lg-10 col-xxl-8 mt-4 px-1">
         <p class="lead">👋 Hi, I’m Chuan Tan, a product design consultant crafting intuitive experiences for enterprise systems. Check out my past projects below, or contact me via email.</p>
-        <a href="mailto:chuan_tan@icloud.com" class="btn btn btn-outline-light btnboxshadow mt-4">Send an email</a>
+        <a href="mailto:chuan_tan@icloud.com" class="btn btn-outline-light btnboxshadow mt-4">Send an email</a>
       </section>
       <section class="my-5 py-2">
         <h2 id="projects" class="display-4 my-5">Projects</h2>
@@ -55,8 +55,13 @@
           </div>
           <div class="col-md-5">
             <div class="card pb-2">
-              <img src="assets/rogers.png" class="card-img-top" alt="rogers">
-              <div class="card-body">
+              <picture>
+                <!-- else show this up to md -->
+                <source media="(max-width: 768px)" srcset="assets/rogers-md.png">
+                <!-- else show this -->
+                <img class="img-fluid w-100" alt="telecom" src="assets/rogers.png">
+              </picture>
+                            <div class="card-body">
                 <h5 class="card-title fw-bold mt-3">Boosting conversions on Rogers.com</h5>
                 <p class="card-text text-muted">3 min read</p>
                 <a href="boosting-conversions-on-rogers.html" type="button" class="btn btn-outline-light btnboxshadow-sm btn-sm mt-2">Read details</a>
@@ -66,8 +71,13 @@
           </div>
           <div class="col-md-5">
             <div class="card pb-2">
-              <img src="assets/etrackcoi.png" class="card-img-top" alt="general contact">
-              <div class="card-body">
+              <picture>
+                <!-- else show this up to md -->
+                <source media="(max-width: 768px)" srcset="assets/etrackcoi-md.png">
+                <!-- else show this -->
+                <img class="img-fluid w-100" alt="tools" src="assets/etrackcoi.png">
+              </picture>
+                            <div class="card-body">
                 <h5 class="card-title fw-bold mt-3">E-Track COI redesign</h5>
                 <p class="card-text text-muted">2 min read</p>
                 <a href="etrackcoi-redesign.html" type="button" class="btn btn-outline-light btnboxshadow-sm btn-sm mt-2">Read details</a>
