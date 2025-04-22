@@ -1,2 +1,2 @@
-# chuantan.github.io
+# Chuan Tan
 Chuan Tan's portfolio
